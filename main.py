@@ -26,7 +26,7 @@ def log(msg):
 # -----------------------------
 URL = "https://sheets.artistgrid.cx/artists.html"
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
-CHECK_INTERVAL = 5  # seconds
+CHECK_INTERVAL = 600  # seconds
 
 def fetch_html(url):
     try:
