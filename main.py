@@ -73,8 +73,6 @@ def monitor_loop():
             log("⚠️ HTML content changed!")
             send_discord_message(f"⚠️ Content changed! <{URL}>")
             last_hash = current_hash
-        else:
-            log("✅ No change.")
 
 # -----------------------------
 # Flask Web App
